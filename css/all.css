@@ -1,0 +1,344 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+	font-family:'Calibri';
+}
+body{
+	background-image: url(../img/bg_html.jpg);
+}
+.wrap{
+	max-width: 950px;
+	margin: 0 auto;
+}
+.subheader{
+	width: 100%;
+	background-color: #292929 ;
+}
+.colorboxred{
+	float:left;
+	background-color:#CE0160 ;
+	width: 5%;
+	height: 5px;
+}
+.colorboxgreen{
+	float:left;
+	background-color:#A0CC05 ;
+	width: 5%;
+	height: 5px;
+}
+.colorboxblue	{
+	float:left;
+	background-color:#0192C1 ;
+	width: 5%;
+	height: 5px;
+}
+.cear{
+	clear:both;
+}
+.header{
+	margin:3% auto;
+}
+.logo{
+	float: left;
+}
+.icon{
+	float:right;
+	width: 60px;
+	height: 25px;
+}
+.icon img{
+	float: right;
+	margin-right: 5px;
+}
+.laborer{
+	float: right;
+	height: 90px;
+	width: 579px;
+}
+.laborer li a{
+	float:right;
+	list-style:none;
+	margin: 35px 20px;
+	color:#292929;
+	font-size: 100%;
+	text-decoration:none;
+}
+.laborer li a:hover{
+	color:#24AACC;
+}
+.bannerarea{
+	width: 100%;
+}
+.banner img{
+	float: left;
+	width: 67%;
+}
+.text{
+	float: left;
+	background-color: #292929;
+	width: 33%;
+	height: 415px;
+}
+.text h2{
+	color:#24AACC;
+	font-size: 40px;
+	margin:40px 50px;
+}
+.text p{
+	color: #ABABAB;
+	font-size: 100%;
+	margin:0px 50px;
+	line-height: 30px;
+}
+.text a{
+	text-decoration:none;
+}
+.text a:hover{
+	text-decoration:none;
+}
+.button{
+	text-decoration:none;
+	color: #FFFFFF;
+	font-size: 12px;
+	background-color: #3F3F3F;
+	margin: 30px 50px;
+	height: 30px;
+	width: 130px;
+	padding: 15px 0px 0px 0px;
+	text-align: center;
+}
+.Textarea{
+	width: 90%;
+	margin: 5% auto;
+	line-height: 30px;
+	padding: 5% 5%;
+	background-color: #FFFFFF;
+}
+span{
+	color:#24AACC;
+}
+.newsarea{
+	width: 90%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	padding: 5% 5%;
+}
+.newsarea h3{
+	float: left;
+	font-size: 32px;
+}
+.newsarea .latestnews{
+	width: 60%;
+	float: left;
+	margin-right: 5%;
+}
+.news{
+	margin: 20px 0px;
+	float: left;
+	width: 100%;
+}
+.news img{
+	width: 35%;
+	float: left;
+	border: 5px #F4F4F4 solid;
+}
+.news h4{
+	margin: 0 0 2% 3%;
+	float: left;
+	max-width: 62%;
+	font-weight: bold;
+}
+.news p{
+	margin: 0px 3%;
+	float: left;
+	max-width: 55%;
+	line-height: 30px;
+}
+.Servicelist{
+	width: 35%;
+	float: left;
+}
+.note{
+	margin: 5% 0;
+	float: left;
+	line-height: 30px;
+}
+.note img{
+	margin: 0 1%;
+}
+.place{
+	width: 90%;
+	margin: 5% 0;
+	padding: 5%;
+	color: #CFCFCF;
+	border: 1px #CFCFCF solid;
+}
+.search{
+	border: none;
+	height: 50px;
+	width: 40%;
+	color: #24AACC;
+	background-color:#CFCFCF;
+}
+.footer{
+	text-align: center;
+	width: 100%;
+	margin: 2% auto 2% auto;
+	line-height: 30px;
+}
+@media(max-width:768px){
+	.logo{
+		float: none;
+		width: 20%;
+		margin: 0 auto;
+	}
+	.icon{
+		position: absolute;
+		top: 2%;
+		right: 2%;
+		height: 7%;
+		width: 18%;
+	}
+	.icon img{
+		height: 100%;
+		border-radius: 20%;
+	}
+	.laborer{
+		width: 80%;
+		height: auto;
+		margin: 5% 10%;
+	}
+	.laborer li a{
+		display: block;
+		margin:0;
+		width: 16%;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+	}
+	.laborer li a:hover{
+		background-color: rgb(200,200,200);
+	}
+	.banner img{
+		float: none;
+		width: 90%;
+		margin: 0 5%;
+	}
+	.text{
+		float: none;
+		width: 80%;
+		margin: 0 5%;
+		height: auto;
+		padding: 3% 5%;
+	}
+	.text h2{
+		margin:0; 
+	}
+	.text p{
+		margin: 0;
+	}
+	.button{
+		margin: 0 auto;
+	}
+	.Textarea{
+		width: 80%;
+		margin: 5% 5%;
+	}
+	.newsarea{
+		width: 80%;
+		margin: 5% 5%;
+	}
+	.news img{
+		width: 50%;
+		margin: 0 auto;
+		float: none;
+	}
+	.news h4{
+		max-width: 95%;
+		float: none;
+	}
+	.news p{
+		max-width: 95%;
+		float: none;
+	}
+}
+@media(max-width:414px){
+	.logo{
+		width: 35%;
+	}
+	.icon{
+		display: none;
+	}
+	.laborer{
+		height: auto;
+	}
+	.laborer li a{
+		width: 30%;
+		margin: 5% 1%;
+	}
+	.newsarea .latestnews{
+		width: 100%;
+		margin-right: 0;
+	}
+	.Servicelist{
+		float: none;
+		width: 100%;
+	}
+	.search{
+		margin: 0 auto;
+	}
+}
+@media(max-width:320px){
+	.logo{
+		width: 60%;
+	}
+	.laborer li a{
+		margin: 1% 1%;
+	}
+}
